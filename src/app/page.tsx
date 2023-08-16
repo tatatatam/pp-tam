@@ -9,12 +9,8 @@ export default function Home() {
   return (
     <main>
       <TopBanner></TopBanner>
-      <Container>
-        <Box>
-          <Card>
-            <Typography variant="h2">Hello World ~</Typography>
-          </Card>
-        </Box>
+      <Container maxWidth="md">
+        <Box sx={{ bgcolor: "#d3d3d3", height: "100vh" }} />
       </Container>
     </main>
   );

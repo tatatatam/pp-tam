@@ -1,5 +1,5 @@
 .container {
-  height: 200px;
+  height: 230px;
   width: 100%;
   background: linear-gradient(45deg, #ff6b6b, #78ffd6); /* Example gradient colors */
   color: #ffffff; /* Banner text color */
@@ -21,8 +21,11 @@
 
 .profile-set {
   display: flex;
-  max-width: 600px;
+
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-name {

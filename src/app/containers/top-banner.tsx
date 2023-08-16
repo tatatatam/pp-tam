@@ -1,20 +1,25 @@
 import "./top-banner.css";
-import { Avatar } from "@mui/material";
+import { Avatar, Box, Typography, useMediaQuery } from "@mui/material";
 
-const TopBanner = () => (
-  <>
-    <div className="container">
-      <div className="profile-set">
-        <div className="avatar-container">
-          <Avatar className="avatar-profile" alt="Remy Sharp" src="/dog.jpg" />
-        </div>
-        <div className="profile-name">
-          <span>Pasakorn</span>
-          <span>Juipiam</span>
-        </div>
-      </div>
-    </div>
-  </>
-);
+const TopBanner = () => {
+  return (
+    <>
+      <Box className="container">
+        <Box maxWidth="md" className="profile-set">
+          <Box padding={"15px"} className="avatar-container">
+            <Avatar
+              className="avatar-profile"
+              alt="Remy Sharp"
+              src="/dog.jpg"
+            />
+          </Box>
+          <Box className="profile-name" textAlign={"center"} padding={"20px"}>
+            <Typography>Pasakorn Juipiam —————————</Typography>
+          </Box>
+        </Box>
+      </Box>
+    </>
+  );
+};
 
 export default TopBanner;
