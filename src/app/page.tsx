@@ -11,8 +11,8 @@ export default function Home() {
         <section>
           <h1>Profile</h1>
           <p>
-            Hello, I'm [Your Name]. I'm a [Your Profession] with a passion for
-            [Your Interests].
+            Hello, I&apos;m [Your Name]. I&apos;m a [Your Profession] with a
+            passion for [Your Interests].
           </p>
           <p>
             I have [X] years of experience in [Your Field] and have worked with
@@ -23,7 +23,7 @@ export default function Home() {
         <section>
           <h1>About Me</h1>
           <p>
-            I'm a passionate and driven individual who loves [Your
+            I&apos;m a passionate and driven individual who loves [Your
             Interests/Hobbies].
           </p>
           <p>[More About Your Background, Education, and Personal Interests]</p>
