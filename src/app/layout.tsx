@@ -1,9 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Kanit } from "next/font/google";
 import Footer from "./containers/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const kanit = Kanit({
+  weight: "300",
+  subsets: ["latin", "thai"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{ margin: "0px" }}>
+      <body className={kanit.className} style={{ margin: "0px" }}>
         {children}
       </body>
       <Footer />

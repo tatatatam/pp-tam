@@ -1,10 +1,17 @@
 .container {
-  height: 430px;
+
   width: 100%;
-  background: linear-gradient(45deg, #ff6b6b, #78ffd6); /* Example gradient colors */
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-image: url("/backgournd-web.jpg");
+  background-size: cover;
+  /* Example gradient colors */
   color: #ffffff; /* Banner text color */
 }
 
+.top-banner-header { 
+  width: 100%;
+}
 .avatar-profile {
   width: 150px;
   height: 150px;
@@ -30,4 +37,8 @@
 
 .profile-name {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }

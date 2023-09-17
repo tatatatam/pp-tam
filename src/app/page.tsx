@@ -1,16 +1,33 @@
 // app/page.js - no directives needed
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
 import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
 import TopBanner from "./containers/top-banner";
+import Navbar from "./containers/nav";
 
 export default function Home() {
   return (
     <main>
-      <TopBanner></TopBanner>
+      <TopBanner />
       <Container maxWidth="md">
-        <Box sx={{ bgcolor: "#d3d3d3", height: "100vh" }} />
+        <section>
+          <h1>Profile</h1>
+          <p>
+            Hello, I'm [Your Name]. I'm a [Your Profession] with a passion for
+            [Your Interests].
+          </p>
+          <p>
+            I have [X] years of experience in [Your Field] and have worked with
+            [Notable Companies/Clients].
+          </p>
+          <p>Contact me at [Your Email] for inquiries.</p>
+        </section>
+        <section>
+          <h1>About Me</h1>
+          <p>
+            I'm a passionate and driven individual who loves [Your
+            Interests/Hobbies].
+          </p>
+          <p>[More About Your Background, Education, and Personal Interests]</p>
+        </section>
       </Container>
     </main>
   );
